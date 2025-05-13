@@ -1,0 +1,132 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* full screen */
+    background-color: #f0f2f5;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 350px;
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .login-box button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .login-box button:hover {
+    background-color: #d16a2e;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+
+  .posturecarelogo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .posturecare-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .posturecare-title .black {
+    color: #000000;
+  }
+  
+  .posturecare-title .orange {
+    color: #f97316; /* Tailwind orange-500 */
+  }
+
+
+  .signup-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signup-link a {
+    color: #f97316; /* Tailwind orange-500 */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+  
+  .register-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: orangered;
+  }
+  
