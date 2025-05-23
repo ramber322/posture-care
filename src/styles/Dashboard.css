@@ -1,0 +1,102 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
+
+.chartContainer {
+  background-color: #8B4513;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.statsContainer {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.progressBarBackground {
+  background-color: #555;
+  height: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.date-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 900px;
+    color: white;
+    padding: 10px;
+}
+
+.date-namecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+
+
+.date-name {
+    margin-right: 5px;
+}
+
+.date-numbercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -9px;
+
+}
+
+.date-2n3{
+    margin-right: 5px;
+}
+
+.statRow {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+}
+
+.stat-numbermargin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}

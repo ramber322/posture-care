@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './LoginPage.css'; // reused login structure
-import pclogo from './pclogo.png';
+import './styles/LoginPage.css'; // reused login structure
 import { Link } from 'react-router-dom';
 
 function SignupPage() {

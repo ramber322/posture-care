@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './LoginPage.css'; 
-import pclogo from './pclogo.png';
+import './styles/LoginPage.css'; 
+import pclogo from './images/pclogo.png';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
